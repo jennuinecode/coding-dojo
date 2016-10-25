@@ -1,0 +1,25 @@
+.container {
+    width: 970px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #e6fff9;
+}
+
+h3 {
+    border: 1px dotted #2d2d86;
+    padding: 10px;
+    background: #d9e6f2;
+}
+h1 {
+    text-align: center;
+}
+
+#accordion h3 {
+    background: #c2d6d6;
+}
+
+#tabs ul {
+    background: #c2d6d6;
+    padding: 5px 0px 2px 5px;
+    list-style-type: none;
+}

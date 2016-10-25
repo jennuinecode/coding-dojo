@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Adding User With jQuery</title>
+        <meta name="description" content="adding user with jquery">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <table id="newUser">
+                <thead>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                <thead>
+
+            </table>
+
+        <h1>Add User</h1>
+        <form action="process.php" method="post">
+            <label>First Name: <input id="firstname" type="text" placeholder="First Name"</label>
+            <label>Last Name: <input id="lastname" type="text" name="Last Name" placeholder="Last Name"></label>
+            <label>Email Address: <input id="email" type="text" name="Email" placeholder="Email Address"></label>
+            <label>Contact No.: <input id="contact" type="text" name="Contact Num" placeholder="Phone #"></label>
+        </form>
+            <button class="add-user">Add User</button>
+
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+ol {
+    counter-reset: item;
+    list-style-type: none;
+}
+ol li { display: block; }
+ol li:before {
+    content: counter(item) "  ";
+    counter-increment: item;
+}
+.container {
+    margin: auto;
+    background: #eeeeee;
+    width: 1200px;
+    height: 6000;
+}
+.red-text {
+    padding: 8px;
+    color: red;
+}
+
+.horizontal-numbers ol {
+    display: inline-block;
+}
+.horizontal-numbers li {
+    display: inline-block;
+    color: red;
+    margin-left: 46px;
+}
+.vertical-numbers li {
+    color: red;
+    margin-bottom:45px;
+}
+.vertical-numbers li:nth-child(1) {
+    padding-top: 30px;
+}
+.blue-elements {
+    width: 120px;
+    height: auto;
+    margin-top: -445px;
+    margin-left: 100px;
+}
+
+.blue-elements p {
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    background: #689bff;
+    margin: 5px 0px 0px 0px;
+}
+.blue-elements p:nth-child(2) {
+    margin-top: 14px;
+}
+.pink-elements {
+    width: 550px;
+    margin-top: -230px;
+    margin-left: 220px;
+}
+.pink-elements p {
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    background: #fd9a98;
+    margin: 5px 0px 0px 0px;
+}
+
+.yellow-elements {
+    width: 370px;
+    margin-top: -355px;
+    margin-left: 760px;
+}
+.yellow-elements p {
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    background: #fecb00;
+    margin: 5px 0px 0px 0px;
+}
+
+
+.green-elements {
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 220px
+}
+.green-elements p {
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    background: #1fca21;
+    margin: 5px 0px 0px 0px;

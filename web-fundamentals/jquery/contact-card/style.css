@@ -1,0 +1,58 @@
+.container {
+    margin: auto;
+    width: 970px;
+    padding: 20px;
+    margin-top: 20px;
+    border:1px dotted #336699;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #003366;
+    border-bottom: 2px dotted #d6f5f5;
+}
+.new-user {
+    display: inline-block;
+}
+input , textarea{
+    margin-bottom: 20px;
+}
+.new-user input {
+    display: block;
+}
+button {
+    align: center;
+    background-color: #d6f5f5;
+    border-color: #d6f5f5;
+    border-radius: 10px;
+}
+.new-card {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #336699;
+    width: 300px;
+    height: 175px;
+    margin-left: 480px;
+    display: none;
+}
+p {
+    color: black;
+    text-align: center;
+}
+h1 {
+    color: #2eb8b8;
+    text-align: center;
+    padding-top: 10px;
+}
+.return {
+    align: center;
+    background-color: #c6d9ec;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+.newCard {
+    display: inline-block;
+    background: blue;
+}

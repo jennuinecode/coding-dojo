@@ -1,0 +1,151 @@
+/* WHOLE DOC
+______________________*/
+.container {
+    margin: auto;
+    padding: 10px 2px 1px 2px;
+    width: 900px;
+    background:#062134;
+}
+.header {
+    width: 850px;
+}
+.header h1 {
+    display: inline-block;
+    margin-left: 15px;
+
+}
+    .white {
+        color: white;;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .blue {
+        color: #1788c0;
+        display: inline-block;
+        font-size: 20px
+    }
+    .header ul {
+        display: inline-block;
+        margin-left: 92px;
+
+    }
+    .header ul li {
+        display: inline-block;
+        vertical-align: top;
+        padding-left:40px;
+    }
+    .header a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+.main-content {
+    width: 850px;
+    background: white;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: -20px;
+}
+
+.icon {
+    width: 10%;
+    height: auto;
+    display: inline-block;
+    padding-right: 5px;
+}
+.service {
+    background: #1468a8;
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.title {
+    display: inline-block;
+    color: white;
+}
+.service p {
+    margin-top: -10px;
+}
+button {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient( #55b2ed, #1992de);
+    border-color: #1992de;
+}
+
+/*BOTTOM CONTENT*/
+
+
+.bottom-item h4 {
+    color: black;
+    margin-top: -20px;
+}
+    .building img {
+    display: inline-block;
+    padding: 0px;
+}
+.bottom-item {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    height: 200px;
+    padding: 5px 10px 10px 10px;
+    margin-top: 10px;
+}
+.bottom-item p {
+    font-size: 13px;
+}
+.bottom-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #5787aa;
+}
+
+.triangle {
+    width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #daedff;
+  margin-top: -13px;
+  margin-left: 20px;
+}
+.quote {
+    background:#daedff;
+    display:inline-block;
+    vertical-align: top;
+    padding: 30px 20px 30px 20px;
+    margin-top: -10px;
+}
+
+
+footer {
+    margin: auto;
+    width: 854px;
+    margin-left: -30px;
+}
+footer ul {
+    display: inline-block;
+    width: 640px;
+    background:#daedff;
+    border-top: solid 1px black;
+    padding: 10px 0px 10px 230px;
+    margin-left: 45px;
+}
+footer ul li {
+    padding-left: 20px;
+    display: inline;
+    margin-right: 10px
+}
+footer a {
+    display: inline;
+    color: #5386ab;
+    font-size: 13px;
+    text-decoration: none;
+}

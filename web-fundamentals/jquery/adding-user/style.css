@@ -1,0 +1,20 @@
+.container {
+    width: 970px;
+    margin: auto;
+    padding: 50px;
+}
+
+table {
+    border: 1px solid black;
+}
+table th {
+    padding: 0px 15px 0px 15px;
+}
+h1 {
+    border-bottom: 1px solid black;
+    margin-top: 80px;
+}
+label {
+    display: block;
+    padding-bottom: 10px;
+}

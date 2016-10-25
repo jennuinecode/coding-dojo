@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ninja Gold!</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+    </head>
+    <body>
+        <div container="container">
+            <div id="score">
+                <h5>Your Gold</h5>
+            </div>
+
+            <div id="farm">
+                <h5>Farm</h5>
+                <p>(earns 10-20 golds)</p>
+                <input type="submit" name="farmGold" value="Find Gold!">
+            </div>
+
+            <div id="cave">
+                <h5>Cave</h5>
+                <p>(earns 5-10 golds)</p>
+                <input type="submit" name="caveGold" value="Find Gold!">
+            </div>
+
+            <div id="house">
+                <h5>House</h5>
+                <p>(earns 2-5 golds)</p>
+                <input type="submit" name="houseGold" value="Find Gold!">
+            </div>
+
+            <div id="casion">
+                <h5>Casino</h5>
+                <p>(earns 0-50 golds)</p>
+                <input type="submit" name="casinoGold" value="Find Gold!">
+            </div>
+
+            <div id="activities"></div>
+            {{session['activities']}}
+        </div>
+<!-- end of container -->
+    </body>
+</html>

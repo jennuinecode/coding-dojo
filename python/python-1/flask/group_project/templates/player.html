@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Player Page</title>
+    </head>
+    <body>
+        <h1>This Is Player's Page</h1>
+        {% for item in team%}
+            {{item}}
+            <p>User Name: {{item.player_name}} </p>
+            <p>Player Number: {{item.player_number}} </p>
+            <p>Player Team: {{item.player_team}} </p>
+        {% endfor %}
+
+    </body>
+</html>

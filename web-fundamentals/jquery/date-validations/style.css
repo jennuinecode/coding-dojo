@@ -1,0 +1,16 @@
+.container {
+    width: 970px;
+    margin: auto;
+    padding-bottom: 20px;
+    border: 2px solid #003366;
+}
+h1 {
+    background: #b3cce6;
+    padding: 20px;
+}
+.user-info {
+    padding-left: 20px;
+}
+input {
+    display: inline-block;
+}

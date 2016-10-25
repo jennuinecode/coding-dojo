@@ -1,0 +1,12 @@
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-shadow: blue;
+}
+
+.img {
+    display: inline;
+}

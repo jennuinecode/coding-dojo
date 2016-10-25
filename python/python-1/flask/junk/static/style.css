@@ -1,0 +1,30 @@
+.container {
+    width: 970px
+}
+div {
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#computer {
+    border: 1px solid black;
+    width: 300px;
+}
+
+#user {
+    border: 1px solid black;
+    width: 300px;
+}
+
+#score {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 646px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
