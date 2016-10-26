@@ -1,19 +1,21 @@
-from flask import Flask, render_template, flash
-from validations import validate_registration, insert_user
-from MySQLConnection import MySQLConnector
+from flask import Flask, render_template
+from mysqlconnection import MySQLConnector
+app = Flask(__name__)
 
-flask = Flask(__name__)
-app.secret_key = "thisisthesupersecretkey"
-db = mysqlconnector(app, 'emailval')
+mysql = MySQLConnector(app, "emails")
+
 
 @app.route('/')
 def index():
+
 
     return render_template('index.html')
 
 @app.route('/success', methods=['POST'])
 def success():
-    insert_user(request.form, db)
-    return render_temaplate('success.html', users = users)
+
+    emails = mysql.query_db('SELECT * FROM emails')
+    return render_template('success.html', emails = emails)
+
 
 app.run(debug=True)
